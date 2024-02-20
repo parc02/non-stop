@@ -26,6 +26,10 @@ sudo docker network connect blog-123 blog-a-1
 sudo docker network connect blog-123 blog-b-1
 sudo docker network connect blog-123 blog-lb-1
 
+sudo docker start blog-lb-1
+sudo docker network inspect blog-123
+
+
 figlet PS
 sudo docker ps
 

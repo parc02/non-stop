@@ -1,6 +1,6 @@
 upstream serv {
-    server blog-a-1:80;
-    server blog-b-1:80;
+    server non-stop-a.internal:80;
+    server non-stop-b.internal:80;
 }
 server {
     listen 80;
